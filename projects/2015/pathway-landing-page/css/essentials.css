@@ -1,0 +1,469 @@
+/** MISC **/
+    .borderBottomNone{
+        border-bottom:none !important
+    }
+	#contactForm hr{
+	border-top:1px solid white;
+	margin-top:15px;
+	margin-bottom:10px;
+	}
+/** Mice Type **/
+    .miceType {
+        font-size: 11px !important;
+    }
+    .miceType-italic {
+        font-size: 11px !important;
+        font-style: italic !important;
+    }
+/** Font Colors **/
+	.whiteFont{ color:#fff !important; }
+
+	/** Tablet View When window is smaller than 767px  **/
+		@media (max-width: 767px){
+			.mobileWhite{
+				color:#fff !important;
+			}
+		}
+
+/** Font Position **/
+    .textAlignRight {
+        text-align: right !important;
+    }
+    .textAlignCenter {
+        text-align: center !important;
+    }
+    .textAlignLeft {
+        text-align: left !important;
+    }
+/** Line Height **/
+    .lineHeight5 {
+        line-height:5px !important;
+    }
+    .lineHeight10 {
+        line-height:10px !important;
+    }
+    .lineHeight15 {
+        line-height:15px !important;
+    }
+    .lineHeight20 {
+        line-height:20px !important;
+    }
+    .lineHeight25 {
+        line-height:25px !important;
+    }
+
+/** Margin **/
+    .marginTopBottom20 {
+        margin:20px 0px 20px 0px !important;
+    }
+    .marginTopBottom0 {
+        margin:0px 0px 0px 0px !important;
+    }
+	.marginBottom0 {
+        margin-bottom:0px !important;
+    }
+	.marginBottom5 {
+        margin-bottom:5px !important;
+    }
+	.marginBottom10 {
+        margin-bottom:10px !important;
+    }
+    .marginBottom15 {
+        margin-bottom:15px !important;
+    }
+    .marginBottom20 {
+        margin-bottom:20px !important;
+    }
+    .marginBottom25 {
+        margin-bottom:25px !important;
+    }
+    .marginBottom30 {
+        margin-bottom:30px !important;
+    }
+    .marginBottom35 {
+        margin-bottom:35px !important;
+    }
+    .marginBottom40 {
+        margin-bottom:40px !important;
+    }
+    .marginBottom45 {
+        margin-bottom:45px !important;
+    }
+    .marginBottom50 {
+        margin-bottom:50px !important;
+    }
+    .marginBottom55 {
+        margin-bottom:55px !important;
+    }
+    .marginBottom60 {
+        margin-bottom:60px !important;
+    }
+    .mobileBottom100{
+        margin-bottom:100px !important;
+    }
+    /** Margin Mobile **/
+        /** When window is smaller 767px, Optimize the placement for CPPC's Logo  **/
+        @media (max-width: 767px) {
+             .mobileBottom100{
+                margin-bottom:36px !important;
+            }
+			.mobileBottom25 {
+				margin-bottom:25px !important;
+			}
+        }
+    .marginTop0 {
+        margin-top:0px !important;
+    }
+    .marginTop5 {
+        margin-top:5px !important;
+    }
+    .marginTop10 {
+        margin-top:10px !important;
+    }
+    .marginTop15 {
+        margin-top:15px !important;
+    }
+    .marginTop20 {
+        margin-top:20px !important;
+    }
+    .marginTop30 {
+        margin-top:30px !important;
+    }
+    .marginTop60 {
+        margin-top:60px !important;
+    }
+    .marginBottom0, .marginBottomZero {
+        margin-bottom:0px !important;
+    }
+    .marginBottom5 {
+        margin-bottom:5px !important;
+    }
+    .marginLeft0, .marginLeftZero {
+        margin-left:0px !important;
+    }
+    .marginLeft5 {
+        margin-left:5px !important;
+    }
+    .marginLeft10 {
+        margin-left:10px !important;
+    }
+    .marginLeft15 {
+        margin-left:15px !important;
+    }
+    .marginLeft20 {
+        margin-left:20px !important;
+    }
+    .marginLeft30 {
+        margin-left:30px !important;
+    }
+    .marginLeft35 {
+        margin-left:35px !important;
+    }
+    .marginLeft40 {
+        margin-left:40px !important;
+    }
+    .marginLeft45 {
+        margin-left:45px !important;
+    }
+    .marginLeft50 {
+        margin-left:50px !important;
+    }
+    .marginLeft55 {
+        margin-left:55px !important;
+    }
+    .marginLeft60 {
+        margin-left:60px !important;
+    }
+    .marginRight0, .marginRightZero {
+        margin-right:0px !important;
+    }
+    .marginRight5 {
+        margin-right:5px !important;
+    }
+    .marginRight10 {
+        margin-right:10px !important;
+    }
+    .marginRight15 {
+        margin-right:15px !important;
+    }
+    .marginRight20 {
+        margin-right:20px !important;
+    }
+    .marginRight30 {
+        margin-right:30px !important;
+    }
+    .marginRight35 {
+        margin-right:35px !important;
+    }
+    .marginRight40 {
+        margin-right:40px !important;
+    }
+    .marginRight45 {
+        margin-right:45px !important;
+    }
+    .marginRight50 {
+        margin-right:50px !important;
+    }
+    .marginRight55 {
+        margin-right:55px !important;
+    }
+    .marginRight60 {
+        margin-right:60px !important;
+    }
+    /** Margin Mobile **/
+        /** When window is smaller 767px, Optimize the placement for CPPC's Logo  **/
+        @media (max-width: 767px) {
+            .mobileMarginTop15 {
+                margin-top:15px !important;
+            }
+        }
+
+/** padding **/
+	.paddingTopBottom10 {
+		padding-bottom:10px; !important;
+	}
+    .paddingTopBottom20 {
+        padding:20px 0px 20px 0px !important;
+    }
+    .paddingTopBottom0 {
+        padding:0px 0px 0px 0px !important;
+    }
+    .paddingBottom15 {
+        padding-bottom:15px !important;
+    }
+    .paddingBottom20 {
+        padding-bottom:20px !important;
+    }
+    .paddingBottom25 {
+        padding-bottom:25px !important;
+    }
+    .paddingBottom30 {
+        padding-bottom:30px !important;
+    }
+    .paddingBottom35 {
+        padding-bottom:35px !important;
+    }
+    .paddingBottom40 {
+        padding-bottom:40px !important;
+    }
+    .paddingBottom45 {
+        padding-bottom:45px !important;
+    }
+    .paddingBottom50 {
+        padding-bottom:50px !important;
+    }
+    .paddingBottom55 {
+        padding-bottom:55px !important;
+    }
+    .paddingBottom60 {
+        padding-bottom:60px !important;
+    }
+    .paddingTop0 {
+        padding-top:0px !important;
+    }
+    .paddingTop5 {
+        padding-top:5px !important;
+    }
+    .paddingTop10 {
+        padding-top:10px !important;
+    }
+    .paddingTop15 {
+        padding-top:15px !important;
+    }
+    .paddingTop20 {
+        padding-top:20px !important;
+    }
+    .paddingTop30 {
+        padding-top:30px !important;
+    }
+    .paddingTop60 {
+        padding-top:60px !important;
+    }
+    .paddingBottom0, .paddingBottomZero {
+        padding-bottom:0px !important;
+    }
+	.paddingBottom0 {
+        padding-bottom:0px !important;
+    }
+	.paddingBottom10 {
+        padding-bottom:10px !important;
+    }
+    .paddingBottom5 {
+        padding-bottom:5px !important;
+    }
+    .paddingLeft0, .paddingLeftZero {
+        padding-left:0px !important;
+    }
+    .paddingLeft5 {
+        padding-left:5px !important;
+    }
+    .paddingLeft10 {
+        padding-left:10px !important;
+    }
+    .paddingLeft15 {
+        padding-left:15px !important;
+    }
+    .paddingLeft20 {
+        padding-left:20px !important;
+    }
+    .paddingLeft30 {
+        padding-left:30px !important;
+    }
+    .paddingLeft35 {
+        padding-left:35px !important;
+    }
+    .paddingLeft40 {
+        padding-left:40px !important;
+    }
+    .paddingLeft45 {
+        padding-left:45px !important;
+    }
+    .paddingLeft50 {
+        padding-left:50px !important;
+    }
+    .paddingLeft55 {
+        padding-left:55px !important;
+    }
+    .paddingLeft60 {
+        padding-left:60px !important;
+    }
+    .paddingRight0, .paddingRightZero {
+        padding-right:0px !important;
+    }
+    .paddingRight5 {
+        padding-right:5px !important;
+    }
+    .paddingRight10 {
+        padding-right:10px !important;
+    }
+    .paddingRight15 {
+        padding-right:15px !important;
+    }
+    .paddingRight20 {
+        padding-right:20px !important;
+    }
+    .paddingRight30 {
+        padding-right:30px !important;
+    }
+    .paddingRight35 {
+        padding-right:35px !important;
+    }
+    .paddingRight40 {
+        padding-right:40px !important;
+    }
+    .paddingRight45 {
+        padding-right:45px !important;
+    }
+    .paddingRight50 {
+        padding-right:50px !important;
+    }
+    .paddingRight55 {
+        padding-right:55px !important;
+    }
+    .paddingRight60 {
+        padding-right:60px !important;
+    }
+    /** padding Mobile **/
+        /** When window is smaller 767px, Optimize the placement for CPPC's Logo  **/
+        @media (max-width: 767px) {
+            .mobilePaddingRight15 {
+                margin-right:15px !important;
+            }
+        }
+
+/** Mice Type **/
+    .miceType {
+        font-size: 11px !important;
+    }
+    .miceType-italic {
+        font-size: 11px !important;
+        font-style: italic !important;
+    }
+
+/** Border **/
+    .borderTopNone {
+        border-top:none !important;
+    }
+    .borderRightNone {
+        border-right:none !important;
+    }
+    .borderBottomNone {
+        border-bottom:none !important;
+    }
+    .borderLeftNone {
+        border-left:none !important;
+    }
+
+/** Mobile width will be a 40,50,60,70,80,90% on destop view, but once it hit's mobile, the width will be 100% **/
+    .mobileWidth40 {
+        width: 40% !important;
+    }
+    .mobileWidth50 {
+        width: 50% !important;
+    }
+    .mobileWidth60 {
+        width: 60% !important;
+    }
+    .mobileWidth70 {
+        width: 70% !important;
+    }
+    .mobileWidth80 {
+        width: 80% !important;
+    }
+    .mobileWidth90 {
+        width: 90% !important;
+    }
+    
+
+    /** When window is less than 991px **/
+        @media (max-width: 991px) {
+            .mobileWidth50, .mobileWidth60, .mobileWidth70, .mobileWidth80, .mobileWidth90, .mobileWidth100 {
+                width: 100% !important;
+            }
+            .mobileMarginBottom20 {
+                margin-bottom:20px !important;
+            }
+        }
+        /** When window is less than 700px **/
+        @media (max-width: 700px) {
+           .mobileHide{
+                display:none !important;
+            }
+        }
+
+/** Table + List **/
+    table.RRUKGIC {
+        width: 100%;
+    }
+    table.RRUKGIC ul li {
+        list-style: url(../../../../../../../../../../wp-content/themes/pgic-career-college-template/assets/images/bullet-point-light-blue.jpg);
+        padding-left: 3px;
+    }
+    table.RRUKGIC tr td {
+        vertical-align: top;
+        padding-top:10px;
+        padding-right:25px;
+        padding-bottom: 10px;
+    }
+    table.RRUKGIC RRUKGIC-noLists tr td{
+    	padding-top:10px;
+    }
+
+    table.RRUKGIC tr {
+        border-bottom: 1px solid #cacaca;
+    }
+    table.RRUKGIC tr td ul {
+        margin-top: 0px;
+        padding-left: 0px;
+        padding-right:20px;
+    }
+
+    table.grey {
+        background:#d9d9d9;
+    }
+    table.grey tr td {
+        padding-left: 10px;
+    padding-bottom:10px;
+    }
+
+

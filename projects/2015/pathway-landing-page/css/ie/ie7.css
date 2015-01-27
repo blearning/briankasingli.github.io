@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+.ie7Container{
+text-align:center !important;
+}
+#aosKGICContainer, #aosRRUContainer{
+width:40%;
+float:left;
+}
+

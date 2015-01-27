@@ -1,0 +1,488 @@
+@charset "UTF-8";
+@import url('essentials.css');
+/* CSS Document */
+
+/* clear defaults */
+body{
+	margin:0px;
+	padding:0px;
+}
+
+/** MISC **/
+.skinny{
+		font-weight:300 !important;
+		}
+.whiteLink{
+	color:white;
+	text-decoration:underline;
+	}
+	.whiteLink:hover, .whiteLinkNoUnderline, .whiteLinkNoUnderline:hover{
+	color:#fff;
+	text-decoration:none;
+	}
+
+/** FONTS **/
+	h2.subTitle{
+		margin:0px;
+		text-transform:uppercase;
+		font-size:31.5px;
+		}
+	@media (max-width: 767px){
+		h2.subTitle{
+			font-size:24px;	
+		}
+	}
+
+
+/** BUTTON **/
+	.orangeBtn{
+		background: #f17c30;
+		color:white;
+		border:0px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		padding:10px 20px 10px 20px;
+		display:block;
+		max-width:240px;
+		text-align:center;
+		margin: 20px 0px;
+	}
+	.orangeBtn:hover{
+		background: #323a45;
+		color:white;
+		text-decoration:none;
+	}
+	.orangeRRUBtn:hover{
+		background: #5f6975;
+	}
+	
+	
+	.darkBlueBtn{
+		background: #323a45;
+		color:white;
+		border:0px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		padding:10px 20px 10px 20px;
+		display:inline-block;
+		min-width:240px;
+		text-align:center;
+		margin: 20px 0px;
+	}
+	.darkBlueBtn:hover{
+		background: #5f6975;
+		color:white;
+		text-decoration:none;
+	}
+	.alignRightDesktopalignMiddleMobile{
+		text-align:right;
+	}
+	@media (max-width: 767px){
+		.alignRightDesktopalignMiddleMobile{
+		text-align:center;
+		}
+	}
+/** Containers **/
+
+	.sectionSpacer, .sectionSpacer50, .sectionSpacer15, .sectionSpacer20, .sectionSpacer45{
+		height:50px;
+	}
+	.sectionSpacer25{
+		height:25px;
+	}
+	.sectionSpacer35{
+		height:35px;
+	}
+	.sectionSpacer40{
+		height:40px;
+	}
+	
+	@media (max-width: 767px){
+		.sectionSpacer{
+			height:25px;
+		}
+		.sectionSpacer15{
+			height:15px;
+		}
+		.sectionSpacer20{
+			height:20px;
+		}
+		.sectionSpacer30{
+			height:30px;
+		}
+		.sectionSpacer45, .sectionSpacer50{
+			height:35px;
+		}
+		.autoHeight{
+			height: auto !important;
+		}
+		.mobileWidth100 {
+			width:100%;
+		}
+		.mobileTextAlignCenter {
+			text-align:center;
+			display:block;
+		}
+		.mobileTextAlignLeft {
+			text-align:left !important;
+		}
+		#aboutOurSchools, #programsWeOffer, #moreInformation {
+			padding-left:20px;
+			padding-right:20px;
+		}
+	}
+	
+
+
+/********************************/
+/************ Header ************/
+/********************************/
+	#genericHeader{
+			background:url(../img/RRU-bgdesign.jpg) repeat;
+			padding:15px 20px 20px 20px;
+	}
+	.headerH1{
+		color:white;
+		font-size:34px;
+		font-weight:bold;
+		margin-bottom:5px;
+	}
+	.headerDescriptionText{
+		font-size:15px;
+		color:white;
+	}
+	#headerDescriptionPhoneText{
+		font-size:15px;
+		color:white;
+		margin-bottom:10px;
+		text-align:right;
+		display:block;
+		margin-top:10px;
+	}
+	#headerPhoneText{
+		color:white;
+		font-size:40px;
+		font-weight:bold;
+		text-align:right;
+		display:block;
+	}
+	a.headerPhoneNumber{
+		color:white;
+		text-decoration:none;
+	}
+	/** Tablet View When window is smaller than 767px  **/
+		@media (max-width: 767px){
+			a.headerPhoneNumber{
+				font-size:.8em;
+			}
+		}
+	
+	/** Desktop View When window is smaller than 979px but above 767px **/
+        @media (min-width: 767px) and (max-width: 979px){
+				.headerH1, #headerPhoneText{
+					font-size:25px;
+					margin-bottom:0px;
+				}
+				#headerDescriptionPhoneText{
+					padding-top:7px;
+					font-size:13px;
+				}
+			}
+	/** Tablet View When window is smaller than 767px  **/
+		@media (max-width: 767px){
+			.headerH1{
+				color:white;
+				font-size:25px;
+				font-weight:bold;
+				margin-bottom:0px;
+			}
+			.headerDescriptionText{
+				font-size:12px;
+				color:white;
+				margin-bottom:0px;
+			}
+			#headerContactUsToday{
+				background:#b5005f;
+			}
+			#headerDescriptionPhoneText{
+				font-size:15px;
+				color:white;
+				margin-bottom:10px;
+				text-align:left;
+				display:block;
+				margin-top:10px;
+				padding:20px 20px 0px 20px;
+			}
+			#headerPhoneText{
+				color:white;
+				font-size:40px;
+				font-weight:bold;
+				text-align:left;
+				display:block;
+				padding:0px 20px 20px 20px;
+			}
+		}
+/* #/End of Header *******************************/
+
+/********************************/
+/***** Banner and Form Area *****/
+/********************************/
+	
+	#bannerFormSection{
+		background: url(../img/featured-banner-image.jpg) no-repeat center center;
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	}
+	/** Tablet View When window is smaller than 767px  **/
+		@media (max-width: 979px){
+			#bannerFormSection{
+				background: url(../img/featured-banner-image-50.jpg) no-repeat center center fixed;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-position-y: inherit;
+		-webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+				height: 100%;
+			}
+		}
+	/** Desktop View When window is smaller than 979px but above 767px **/
+        @media (min-width: 767px) and (max-width: 979px){
+			#desktopWidthForce400width{
+				width:400px !important;
+			}
+		}
+	#contactForm{
+		width:210px;
+		background:#f17c30;
+		padding:20px 20px 1px 20px;
+		text-align:left;
+	}
+	#contactForm h3{
+		font-size:30px;
+		line-height: 40px;
+		margin-top:0px;
+	}
+	.leadForm input, textarea{
+		width:100%;
+		display: block;
+		padding: 0px;
+		margin-bottom: 0px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #555555;
+		vertical-align: middle;
+		-webkit-border-radius: 0px;
+		-moz-border-radius: 0px;
+		border-radius: 0px;
+		}
+	.fieldName{
+		color:white;
+	}
+	
+	.leadForm .submit{
+		background: #323a45;
+		color:white;
+		border:0px;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		padding:10px 20px 10px 20px;
+	}
+	.leadForm .submit:hover{
+		background: #5f6975;
+	}
+	
+	/** Desktop View When window is smaller than 979px but above 767px **/
+		@media (min-width: 767px) and (max-width: 979px){
+			}
+			
+	/** Tablet View When window is smaller than 767px  **/
+		@media (max-width: 767px){
+			#bannerFormSection{
+				padding:20px;
+			}
+			#contactForm{ width:auto;}
+		}
+
+/* #/End of Banner and Form Area *******************************/
+
+
+/*********************************/
+/******* About our Schools *******/
+/*********************************/
+	#aosKGICContainer{
+		background:#f1f1f1; 
+		padding:20px; 
+		border-top:5px solid #006225;
+	}
+	#aosRRUContainer{
+		background:url(../img/RRU-bgdesign.jpg) repeat;
+		padding:20px; 
+		border-top:5px solid #0098d7;
+		color:white;
+	}
+	
+	#aboutOurSchools h3{
+		font-weight:300;
+	}
+	.mobileBlock{
+		display:inline;
+	}
+
+	/** Desktop View When window is smaller than 979px but above 767px **/
+		@media (min-width: 767px) and (max-width: 979px){
+			.mobileBlock{
+				display:block;
+			}
+		}
+		
+	/** Tablet View When window is smaller than 767px  **/
+		@media (max-width: 767px){
+			#aosKGICContainer{
+				margin-bottom:20px;
+			}
+		}
+
+
+
+/* #/End of About our Schools *******************************/
+
+
+/********************************/
+/******* Programs we Offer ******/
+/********************************/
+
+	#programsWeOffer{
+	background:#f17c30;
+	}
+
+
+/* #/End of Programs we Offer *******************************/
+
+/********************************/
+/******* Programs we Offer ******/
+/********************************/
+
+	#yourPathwayWithUs{
+	background:url(../img/RRU-bgdesign.jpg) repeat;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	
+	.stepItem{
+		position:relative; 
+		background:url('../img/your-pathway-with-us-bg.png') no-repeat; 
+		background-size: 100% 100%; 
+		height:100px; 
+		vertical-align:middle; 
+		display:inline-table;
+	}
+	.stepItemDescription1, .stepItemDescription2, .stepItemDescription3{
+		padding:30px 40px 0px 50px;
+	}
+
+
+	/** Desktop View When window is smaller than 979px but above 767px **/
+		@media (min-width: 767px) and (max-width: 979px){
+			.stepItem{
+				height:150px;
+			}
+			.stepItemDescription1{
+				padding-top:35px;
+			}
+			.stepItemDescription2{
+				padding-top:55px;
+			}
+			.stepItemDescription3{
+				padding-top:42px;
+			}
+		}
+		
+	/** Tablet View When window is smaller than 767px  **/
+		@media (max-width: 767px){
+			.stepItem{
+				background:url('../img/your-pathway-with-us-bg-mobile.png') no-repeat; 
+				background-size: 100% 100%; 
+				height:150px;
+				padding:0px 30px 0px 30px;
+			}
+			.stepItemDescription1{
+				padding-top:50px; 
+			}
+			.stepItemDescription2{
+				padding-top:60px;
+			}
+			.stepItemDescription3{
+				padding-top:65px;
+			}
+		}
+
+/* #/End of Programs we Offer *******************************/
+
+
+/********************************/
+/********** Jings Story *********/
+/********************************/
+
+	#jingsStory{
+	background:#fff;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+	blockquote {
+	  background: #f9f9f9;
+	  border-left: 10px solid #ccc;
+	  margin: 1.5em 10px;
+	  padding: 0.5em 10px;
+	  quotes: "\201C""\201D""\2018""\2019";
+	}
+	blockquote:before {
+	  color: #ccc;
+	  content: open-quote;
+	  font-size: 4em;
+	  line-height: 0.1em;
+	  margin-right: 0.25em;
+	  vertical-align: -0.4em;
+	}
+	blockquote p {
+		display: inline;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 14px;
+		line-height: 20px;
+		color: #333333;
+		font-weight:400;
+	  
+	}
+
+
+/* #/End of Jings Story *******************************/
+
+/*********************************/
+/************* Footer ************/
+/*********************************/
+
+	#landingPageFooter{
+	background:url(../img/RRU-bgdesign.jpg) repeat;
+	padding:20px;
+	text-align:center;
+	}
+	
+	.footerLink{
+		color:white;
+		text-decoration:underline;
+	}
+	.footerLink:hover{
+		color:white !important;
+		text-decoration:none;
+	}
+
+
+/* #/End of Footer *******************************/
